@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(20px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.photo {
+  max-height: 400px;
+}
+
+.wrapper {
+  column-count: 1;
+  column-gap: 50px;
+  padding: 25px;
+}
+
+.profile_pic {
+  float: left;
+  width: 300px;
+  shape-margin:20px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  box-shadow: 7px 7px 7px #666666;
+}
+
+h1.content_page {
+  line-height: 1.6; 
+  font-family: Helvetica;
+  text-align: justify;
+  margin: 0;
+  font-size: 20px;
+  color: #4b4b4b;
+}
+
+.content_page {
+  line-height: 1.6; 
+  font-family: Helvetica;
+  text-align: justify;
+  margin-left: 25px;
+  font-size: 16px;
+  color: #4b4b4b;
+}
+
+.description {
+  text-align: center;
+  font-size: 14px;
+  font-family: Helvetica;
+}
